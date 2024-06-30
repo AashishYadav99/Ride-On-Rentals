@@ -1,0 +1,16 @@
+.cardhover{
+   transition: all 0.3s; 
+}
+.cardhover:hover{
+transform: scale(1.08);
+}
+
+.cardhover1{
+   transition: all 0.3s; 
+}
+.cardhover1:hover{
+transform: scale(1.01);
+
+background-color: bisque;
+box-shadow: 0px 0px 10px 5px rgb(15, 14, 14);
+}

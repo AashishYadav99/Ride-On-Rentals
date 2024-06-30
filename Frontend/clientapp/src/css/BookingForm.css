@@ -1,0 +1,93 @@
+.input-container1 {
+    position: relative;
+    margin: 10px;
+    font-size:30px;
+    text-align: center;
+  }
+  .input-container input {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  .input-container1::before {
+    content: "From Date";
+    position: absolute;
+    top: -5px;
+    left: 32%;
+    font-size: 20px;
+    background-color: white;
+    padding: 0 5px;
+    color:black;
+  }
+
+  .input-container2 {
+    position: relative;
+    margin: 10px;
+    font-size:30px;
+    text-align: center;
+  }
+  .input-container input {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  .input-container2::before {
+    content: "To Date";
+    position: absolute;
+    top: -5px;
+    left: 32%;
+    font-size: 20px;
+    background-color: white;
+    padding: 0 5px;
+    color:black;
+  }
+
+  .input-container_forPickupTime {
+    position: relative;
+    margin: 10px;
+    font-size:30px;
+    
+  }
+  .input-container input {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  .input-container_forPickupTime::before {
+    content: "Pickup Time";
+    position: absolute;
+    top: -5px;
+    left: 20%;
+    left: 32%;
+    font-size: 20px;
+    background-color: white;
+    padding: 0 5px;
+    color:black;
+  }
+
+
+  .input-container_forDropTime {
+    position: relative;
+    margin: 10px;
+    font-size:30px;
+   
+  }
+  .input-container input {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  .input-container_forDropTime::before {
+    content: "Drop Time";
+    position: absolute;
+    top: -5px;
+    left: 32%;
+    font-size: 20px;
+    background-color: white;
+    padding: 0 5px;
+    color:black;
+  }
