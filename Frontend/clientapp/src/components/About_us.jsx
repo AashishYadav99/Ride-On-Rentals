@@ -15,32 +15,6 @@ function Aboutus() {
 
   return (
     <>
-      {/* <div
-        className="col img-fluid d-flex justify-content-center  flex-column"
-        style={{
-          width: "100%",
-          height: "1000px",
-          backgroundImage: `url(${car1})`,
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      >
-        <div className="d-flex flex-column justify-content-center align-items-center">
-          <h3 style={{ color: "Black", fontSize: "70px", textAlign: "center" }}>
-            WE UNDERSTAND YOUR
-          </h3>
-        </div>
-        <br />
-        <div className="d-flex flex-column justify-content-center align-items-center">
-          <h1 style={{ color: "black", fontSize: "70px", textAlign: "center" }}>
-            VEHICLE RENTAL NEED
-          </h1>
-        </div>
-      </div> */}
-
-  
-
-
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="2000">
